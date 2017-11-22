@@ -41,14 +41,6 @@ $(document).ready(function(){
 });
 
 
-// $(document).ready(function(){
-// $('select, #city-type').on('click', function(event) {
-// 	var $selected = $(event.target).val()
-// 	$('body').removeClass().addClass( $selected );
-// 	// debugger
-//   })
-// })
-
 $(document).ready(function(){
 $('#city-type').change( function() {
 	var $selected = $('#city-type').val()
